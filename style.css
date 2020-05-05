@@ -1,0 +1,23 @@
+body{
+    background: #EBEBEB;
+}
+.page-header{
+    text-align: center;
+}
+
+h1{
+    color: white;
+    background: #e85427;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+h2{
+    padding-bottom: 5px;
+    color: #e85427;
+}
+
+.card-title{
+    color: white;
+    background-color: #e85427;
+}
