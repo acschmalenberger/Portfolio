@@ -24,29 +24,32 @@ h2{
     padding:20px;
     display: table;
     margin: 0;
-  }
-  
-  .thumbnail img {
+    display:inline-block;
+}
+
+.thumbnail img {
     max-width: 100%;
-  }
-  
-  .figcaption {
+    border-color: #353a40;
+    border: solid 1px;
+}
+
+.figcaption {
     caption-side: bottom;
     color: white;
     text-align: center;
     background-color: #e85427;
-  }
+}
 
 @media screen and (min-width: 768px) {
-  
+
 
     .page-header{
         text-align: left;
     }  
     
-    .col{
+    /* .col{
         max-width: 800px;
-    }
+    } */
 
     .thumbnail img {
         max-width: 300px;
